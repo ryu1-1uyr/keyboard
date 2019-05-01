@@ -18,7 +18,6 @@ const click = () => {
     console.log("clicked!!!!");
     
     let dom_h1:HTMLElement = document.getElementById("hello")
-
     let randnum:number = Math.floor(Math.random() * Math.floor(5))
 
     dom_h1.style.color = colorList[randnum]
