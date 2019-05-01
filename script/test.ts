@@ -3,3 +3,7 @@ let user = (name) => {
 }
 
 console.log(user('太郎'));
+
+const dom_h1:HTMLElement = document.getElementById("hello")
+
+console.log(dom_h1)
