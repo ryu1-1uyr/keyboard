@@ -26,3 +26,8 @@ const click = () => {
 
 dom_click.addEventListener('click',click,false)
 
+interface Some<Calmery> {
+    type: 'Some'
+    value: Calmery
+}
+type Option<Calmery> = Some<Calmery> | null;
